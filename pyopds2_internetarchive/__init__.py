@@ -1,4 +1,4 @@
-import requests 
+import requests
 from typing import List, Optional
 from pydantic import Field
 
@@ -45,7 +45,8 @@ class InternetArchiveDataRecord(DataProviderRecord):
         if self.coverurl:
             return [Link(href=self.coverurl, type="image/jpeg", rel="cover")]
         if self.identifier:
-            fallback = f"https://archive.org/download/{self.identifier}/{self.identifier}_thumb.jpg"
+            from pyopds2_internetarchive import InternetArchiveDataProvider
+            fallback = InternetArchiveDataProvider._get_cover_url(self.identifier)
             return [Link(href=fallback, type="image/jpeg", rel="cover")]
         return None
     
@@ -70,6 +71,12 @@ class InternetArchiveDataProvider(DataProvider):
     TITLE = "Internet Archive OPDS Service"
     CATALOG_URL = "/opds/catalog"
     SEARCH_URL = "/opds/search{?query}"
+    SEARCH_TIMEOUT = 10  # seconds
+    
+    @staticmethod
+    def _get_cover_url(identifier: str) -> str:
+        """Generate the cover URL for an Internet Archive item."""
+        return f"https://archive.org/download/{identifier}/{identifier}_thumb.jpg"
     
     @staticmethod
     def search(
@@ -111,7 +118,11 @@ class InternetArchiveDataProvider(DataProvider):
         if sort:
             params["sort[]"] = sort
             
-        r = requests.get(f"{InternetArchiveDataProvider.URL}/advancedsearch.php", params=params, timeout=10)
+        r = requests.get(
+            f"{InternetArchiveDataProvider.URL}/advancedsearch.php",
+            params=params,
+            timeout=InternetArchiveDataProvider.SEARCH_TIMEOUT
+        )
         r.raise_for_status()
         data = r.json()
         resp = data.get("response", {})
@@ -128,6 +139,6 @@ class InternetArchiveDataProvider(DataProvider):
                 doc["language"] = [doc["language"]]
             # set fallback cover only when identifier exists
             if "identifier" in doc:
-                doc.setdefault("coverurl", f"https://archive.org/download/{doc['identifier']}/{doc['identifier']}_thumb.jpg")
+                doc.setdefault("coverurl", InternetArchiveDataProvider._get_cover_url(doc["identifier"]))
             records.append(InternetArchiveDataRecord.model_validate(doc))
         return SearchResponse(records, int(total or 0), SearchRequest(query, limit, offset, sort))
