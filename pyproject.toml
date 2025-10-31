@@ -26,6 +26,7 @@ classifiers = [
 dependencies = [
     "pydantic>=2.0.0",
     "requests>=2.25.0",
+    "opds2 @ git+https://github.com/ArchiveLabs/pyopds2.git",
 ]
 
 [project.optional-dependencies]

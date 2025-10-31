@@ -1,1 +1,1 @@
-pip install git+https://github.com/ArchiveLabs/pyopds2.git
+opds2 @ git+https://github.com/ArchiveLabs/pyopds2.git

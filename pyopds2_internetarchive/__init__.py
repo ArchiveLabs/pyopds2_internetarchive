@@ -54,11 +54,11 @@ class InternetArchiveDataRecord(DataProviderRecord):
         if self.creator:
             authors = [Contributor(name=creator) for creator in self.creator]
         return Metadata(
-            title= self.title or self.identifier,
-            type= self.type,
-            author= authors,
-            language= self.language,
-            description= self.description,
+            title=self.title or self.identifier,
+            type=self.type,
+            author=authors,
+            language=self.language,
+            description=self.description,
             published=self.year if self.year else None
         )
 
