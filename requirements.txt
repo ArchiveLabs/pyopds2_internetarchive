@@ -1,0 +1,1 @@
+opds2 @ git+https://github.com/ArchiveLabs/pyopds2.git
