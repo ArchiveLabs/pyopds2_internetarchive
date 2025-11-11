@@ -1,0 +1,162 @@
+{
+  "@context": "https://readium.org/webpub-manifest/context.jsonld",
+  "metadata": {
+    "title": "The Picture of Dorian Gray (1891 Version)",
+    "identifier": "https://archive.org/details/picture_dorian_gray_1204_librivox",
+    "type": "http://schema.org/Audiobook",
+    "published": "2012-04-26T18:19:58Z",
+    "language": [
+      "en"
+    ],
+    "description": "LibriVox recording of The Picture of Dorian Gray (1891 Version), by Oscar Wilde. Read by Bob Neufeld. The Picture of Dorian Gray is the only published novel by Oscar Wilde, appearing as the lead story in Lippincott's Monthly Magazine on 20 June 1890, printed as the July 1890 issue of this magazine. Wilde later revised this edition, making several alterations, and adding new chapters; the amended version was published by Ward, Lock, and Company in April 1891. The novel tells of a young man named Dorian Gray, the subject of a painting by artist Basil Hallward. Basil is impressed by Dorian's beauty and becomes infatuated with him, believing his beauty is responsible for a new mode in his art. Dorian meets Lord Henry Wotton, a friend of Basil's, and becomes enthralled by Lord Henry's world view. Espousing a new hedonism, Lord Henry suggests the only things worth pursuing in life are beauty and fulfillment of the senses. Realizing that one day his beauty will fade, Dorian (whimsically) expresses a desire to sell his soul to ensure the portrait Basil has painted would age rather than himself. Dorian's wish is fulfilled, plunging him into debauched acts. The portrait serves as a reminder of the effect each act has upon his soul, with each sin displayed as a disfigurement of his form, or through a sign of aging. The Picture of Dorian Gray is considered a work of classic gothic fiction with a strong Faustian theme. (Summary by Wikipedia) For further information, including links to online text, reader information, RSS feeds, CD cover or other formats (if available), please go to the LibriVox catalog page for this recording. For more free audio books or to become a volunteer reader, visit LibriVox.org . Download M4B 00-14 (201MB) Download M4B 15-20 (56MB)",
+    "author": [
+      {
+        "name": "Oscar Wilde"
+      }
+    ],
+    "duration": 34214
+  },
+  "links": [
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/__ia_thumb.jpg",
+      "type": "image/jpeg",
+      "rel": "cover",
+      "height": 1400,
+      "width": 800
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/__ia_thumb.jpg",
+      "type": "image/jpeg",
+      "height": 700,
+      "width": 400
+    }
+  ],
+  "readingOrder": [
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_00_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "00 - The Preface",
+      "duration": "03:16"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_01_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "01 - Chapter 1",
+      "duration": "35:36"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_02_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "02 - Chapter 2",
+      "duration": "40:43"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_03_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "03 - Chapter 3",
+      "duration": "32:32"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_04_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "04 - Chapter 4",
+      "duration": "39:44"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_05_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "05 - Chapter 5",
+      "duration": "31:49"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_06_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "06 - Chapter 6",
+      "duration": "20:52"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_07_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "07 - Chapter 7",
+      "duration": "32:02"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_08_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "08 - Chapter 08",
+      "duration": "38:21"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_09_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "09 - Chapter 9",
+      "duration": "27:51"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_10_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "10 - Chapter 10",
+      "duration": "21:37"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_11_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "11 - Chapter 11",
+      "duration": "50:28"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_12_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "12 - Chapter 12",
+      "duration": "18:53"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_13_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "13 - Chapter 13",
+      "duration": "18:24"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_14_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "14 - Chapter 14",
+      "duration": "34:28"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_15_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "15 - Chapter 15",
+      "duration": "22:30"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_16_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "16 - Chapter 16",
+      "duration": "22:41"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_17_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "17 - Chapter 17",
+      "duration": "14:07"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_18_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "18 - Chapter 18",
+      "duration": "23:48"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_19_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "19 - Chapter 19",
+      "duration": "26:24"
+    },
+    {
+      "href": "https://archive.org/download/picture_dorian_gray_1204_librivox/pictureofdoriangray_20_wilde_64kb.mp3",
+      "type": "audio/mpeg",
+      "title": "20 - Chapter 20",
+      "duration": "14:09"
+    }
+  ]
+}
