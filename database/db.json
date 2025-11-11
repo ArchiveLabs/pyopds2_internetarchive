@@ -1,0 +1,410 @@
+{
+  "base_query":"(collection:inlibrary OR ((openlibrary_edition:* OR sponsor:Google OR collection:digitallibraryindia OR collection:librivoxaudio) AND (mediatype:texts OR mediatype:audio) AND -repub_state:('-2' OR '-1' OR 0 OR 10 OR 11 OR 12 OR 13 OR 18) AND -collection:*test* AND -_exists_:access-restricted-item))",
+  "sections":{
+    "search": {
+      "title":"User search",
+      "needs_base_query":false,
+      "facets":[
+        "languages",
+        "categories",
+        "availability"
+      ],
+      "items": {
+        "user-search": {
+          "title": "Results for query",
+          "query": "base_query"
+        }
+      }
+      },
+    "collections":{
+      "title":"Browse Collections",
+      "needs_base_query":false,
+      "facets":[
+        "languages",
+        "categories"
+      ],
+      "items":{
+        "lcp-books":{
+          "title":"LCP Books Ready to Borrow",
+          "query":"(collection:inlibrary AND lending___is_borrowable:true AND format:lcp)"
+        },
+        "modern-books":{
+          "title":"Modern Books",
+          "query":"((lending___is_borrowable:true AND collection:inlibrary) OR ((openlibrary_edition:* OR sponsor:Google OR collection:digitallibraryindia) AND mediatype:texts AND -repub_state:('-2' OR '-1' OR 0 OR 10 OR 11 OR 12 OR 13 OR 18) AND date:[1926 TO *] AND -collection:*test* AND -_exists_:access-restricted-item)) AND ((!_exists_:access-restricted-item) OR lending___available_to_borrow:true)"
+        },
+        "available-now":{
+          "title":"Available Now",
+          "query":"((lending___available_to_borrow:true AND lending___is_borrowable:true AND collection:inlibrary) OR ((openlibrary_edition:* OR sponsor:Google OR collection:digitallibraryindia) AND mediatype:texts AND -repub_state:('-2' OR '-1' OR 0 OR 10 OR 11 OR 12 OR 13 OR 18) AND date:[1926 TO *] AND -collection:*test* AND -_exists_:access-restricted-item))"
+        },
+        "print-disability":{
+          "title":"Print Disability Access",
+          "query":"collection:printdisabled"
+        },
+        "audiobooks":{
+          "title":"Librivox Audiobooks",
+          "query":"collection:librivoxaudio"
+        }
+      }
+    },
+    "titles":{
+      "title":"Browse by Title",
+      "needs_base_query":true,
+      "facets":[
+        "categories",
+        "availability",
+        "languages"
+      ],
+      "items":{
+        "title-A":{
+          "title":"Title_A",
+          "query":"firstTitle:A"
+        },
+        "title-B":{
+          "title":"Title_B",
+          "query":"firstTitle:B"
+        },
+        "title-C":{
+          "title":"Title_C",
+          "query":"firstTitle:C"
+        },
+        "title-D":{
+          "title":"Title_D",
+          "query":"firstTitle:D"
+        },
+        "title-E":{
+          "title":"Title_E",
+          "query":"firstTitle:E"
+        },
+        "title-F":{
+          "title":"Title_F",
+          "query":"firstTitle:F"
+        },
+        "title-G":{
+          "title":"Title_G",
+          "query":"firstTitle:G"
+        },
+        "title-H":{
+          "title":"Title_H",
+          "query":"firstTitle:H"
+        },
+        "title-I":{
+          "title":"Title_I",
+          "query":"firstTitle:I"
+        },
+        "title-J":{
+          "title":"Title_J",
+          "query":"firstTitle:J"
+        },
+        "title-K":{
+          "title":"Title_K",
+          "query":"firstTitle:K"
+        },
+        "title-L":{
+          "title":"Title_L",
+          "query":"firstTitle:L"
+        },
+        "title-M":{
+          "title":"Title_M",
+          "query":"firstTitle:M"
+        },
+        "title-N":{
+          "title":"Title_N",
+          "query":"firstTitle:N"
+        },
+        "title-O":{
+          "title":"Title_O",
+          "query":"firstTitle:O"
+        },
+        "title-P":{
+          "title":"Title_P",
+          "query":"firstTitle:P"
+        },
+        "title-Q":{
+          "title":"Title_Q",
+          "query":"firstTitle:Q"
+        },
+        "title-R":{
+          "title":"Title_R",
+          "query":"firstTitle:R"
+        },
+        "title-S":{
+          "title":"Title_S",
+          "query":"firstTitle:S"
+        },
+        "title-T":{
+          "title":"Title_T",
+          "query":"firstTitle:T"
+        },
+        "title-U":{
+          "title":"Title_U",
+          "query":"firstTitle:U"
+        },
+        "title-V":{
+          "title":"Title_V",
+          "query":"firstTitle:V"
+        },
+        "title-W":{
+          "title":"Title_W",
+          "query":"firstTitle:W"
+        },
+        "title-X":{
+          "title":"Title_X",
+          "query":"firstTitle:X"
+        },
+        "title-Y":{
+          "title":"Title_Y",
+          "query":"firstTitle:Y"
+        },
+        "title-Z":{
+          "title":"Title_Z",
+          "query":"firstTitle:Z"
+        },
+        "title-0":{
+          "title":"Title_0",
+          "query":"firstTitle:0"
+        },
+        "title-1":{
+          "title":"Title_1",
+          "query":"firstTitle:1"
+        },
+        "title-2":{
+          "title":"Title_2",
+          "query":"firstTitle:2"
+        },
+        "title-3":{
+          "title":"Title_3",
+          "query":"firstTitle:3"
+        },
+        "title-4":{
+          "title":"Title_4",
+          "query":"firstTitle:4"
+        },
+        "title-5":{
+          "title":"Title_5",
+          "query":"firstTitle:5"
+        },
+        "title-6":{
+          "title":"Title_6",
+          "query":"firstTitle:6"
+        },
+        "title-7":{
+          "title":"Title_7",
+          "query":"firstTitle:7"
+        },
+        "title-8":{
+          "title":"Title_8",
+          "query":"firstTitle:8"
+        },
+        "title-9":{
+          "title":"Title_9",
+          "query":"firstTitle:9"
+        }
+      }
+    },
+    "languages":{
+      "title":"Browse by Language",
+      "needs_base_query":true,
+      "facets":[
+        "categories",
+        "availability"
+      ],
+      "items":{
+        "english":{
+          "title":"English",
+          "query":"languageSorter:English"
+        },
+        "french":{
+          "title":"French",
+          "query":"languageSorter:French"
+        },
+        "german":{
+          "title":"German",
+          "query":"languageSorter:German"
+        },
+        "italian":{
+          "title":"Italian",
+          "query":"languageSorter:Italian"
+        },
+        "spanish":{
+          "title":"Spanish",
+          "query":"languageSorter:Spanish"
+        },
+        "chinese":{
+          "title":"Chinese",
+          "query":"languageSorter:Chinese"
+        },
+        "japanese":{
+          "title":"Japanese",
+          "query":"languageSorter:Japanese"
+        },
+        "korean":{
+          "title":"Korean",
+          "query":"languageSorter:Korean"
+        },
+        "portuguese":{
+          "title":"Portuguese",
+          "query":"languageSorter:Portuguese"
+        },
+        "hindi":{
+          "title":"Hindi",
+          "query":"languageSorter:Hindi"
+        },
+        "ukrainian":{
+          "title":"Ukrainian",
+          "query":"languageSorter:Ukrainian"
+        }
+      }
+    },
+    "categories":{
+      "title":"Browse by Category",
+      "needs_base_query":true,
+      "facets":[
+        "languages",
+        "availability"
+      ],
+      "items":{
+        "children":{
+          "title":"Children / Young Adult",
+          "query":"subject:(juvenile fiction)"
+        },
+        "textbooks":{
+          "title":"Textbooks",
+          "query":"subject:(textbooks OR textbook)"
+        },
+        "lgbtq":{
+          "title":"LGBTQ",
+          "query":"subject:(homosexuality OR lgbtq OR gay OR lesbian OR queer)"
+        },
+        "mystery":{
+          "title":"Mystery / Crime / Thriller",
+          "query":"subject:(mystery OR suspense OR thriller OR detective OR crime)"
+        },
+        "romance":{
+          "title":"Romance",
+          "query":"subject:(romance)"
+        },
+        "adventure":{
+          "title":"Action / Adventure",
+          "query":"subject:(adventure OR action)"
+        },
+        "scifi":{
+          "title":"Science Fiction / Fantasy",
+          "query":"subject:('science fiction' OR 'fantasy fiction')"
+        },
+        "horror":{
+          "title":"Horror",
+          "query":"subject:('horror')"
+        },
+        "young-adult":{
+          "title":"Young Adult",
+          "query":"subject:('young adult fiction')"
+        },
+        "historical":{
+          "title":"Historical Fiction",
+          "query":"subject:('historical fiction')"
+        },
+        "womens":{
+          "title":"Women's Fiction",
+          "query":"subject:('feminist fiction' OR 'womens fiction')"
+        },
+        "western":{
+          "title":"Western",
+          "query":"subject:('western fiction')"
+        },
+        "biography":{
+          "title":"Biography",
+          "query":"subject:(biography OR autobiography)"
+        },
+        "literary":{
+          "title":"Literary Fiction",
+          "query":"subject:(literature AND fiction)"
+        }
+      }
+    },
+    "availability":{
+      "title":"Browse by Availability",
+      "needs_base_query":false,
+      "facets":[
+        "languages",
+        "categories"
+      ],
+      "items":{
+        "recently-returned":{
+          "title":"Recently Returned",
+          "query":"(collection:inlibrary AND (lending___available_to_browse:true OR lending___available_to_borrow:true))",
+          "sort":["-lending___last_browse"]
+        },
+        "new-additions":{
+          "title":"New Additions",
+          "query":"(collection:inlibrary OR ((openlibrary_edition:* OR sponsor:Google OR collection:digitallibraryindia) AND mediatype:texts AND -repub_state:('-2' OR '-1' OR 0 OR 10 OR 11 OR 12 OR 13 OR 18) AND -collection:*test* AND -_exists_:access-restricted-item)) AND ((!_exists_:access-restricted-item) OR lending___available_to_borrow:true)",
+          "sort":["-publicdate"]
+        },
+        "popular":{
+          "title":"Popular",
+          "query":"(collection:inlibrary OR ((openlibrary_edition:* OR sponsor:Google OR collection:digitallibraryindia) AND mediatype:texts AND -repub_state:('-2' OR '-1' OR 0 OR 10 OR 11 OR 12 OR 13 OR 18) AND -collection:*test* AND -_exists_:access-restricted-item)) AND ((!_exists_:access-restricted-item) OR lending___available_to_borrow:true)",
+          "sort":["-week"]
+        }
+      }
+    }
+  },
+  "navigation":{
+    "main":{
+      "title":"Archive.org",
+      "show_sections":[
+        "collections",
+        "availability"
+      ],
+      "show_navigation_pages":[
+        "page_titles",
+        "page_languages",
+        "page_categories"
+      ],
+      "featured_groups":{
+        "section":"collections",
+        "groups":[
+          "available-now",
+          "print-disability"
+        ]
+      }
+    },
+    "page_titles":{
+      "title":"Browse by Titles",
+      "show_sections":[
+        "titles"
+      ],
+      "featured_groups":{
+        "section":"titles",
+        "groups":[
+          "title-A",
+          "title-Z"
+        ]
+      }
+    },
+    "page_languages":{
+      "title":"Browse by Language",
+      "show_sections":[
+        "languages"
+      ],
+      "featured_groups":{
+        "section":"languages",
+        "groups":[
+          "english",
+          "french"
+        ]
+      }
+    },
+    "page_categories":{
+      "title":"Browse by Category",
+      "show_sections":[
+        "categories"
+      ],
+      "featured_groups":{
+        "section":"categories",
+        "groups":[
+          "adventure",
+          "romance"
+        ]
+      }
+    }
+  }
+}

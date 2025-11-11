@@ -1,0 +1,40 @@
+[
+  {
+    "creator":"Oscar Wilde",
+    "description":"LibriVox recording of The Picture of Dorian Gray (1891 Version), by Oscar Wilde. Read by Bob Neufeld. The Picture of Dorian Gray is the only published novel by Oscar Wilde, appearing as the lead story in Lippincott's Monthly Magazine on 20 June 1890, printed as the July 1890 issue of this magazine. Wilde later revised this edition, making several alterations, and adding new chapters; the amended version was published by Ward, Lock, and Company in April 1891. The novel tells of a young man named Dorian Gray, the subject of a painting by artist Basil Hallward. Basil is impressed by Dorian's beauty and becomes infatuated with him, believing his beauty is responsible for a new mode in his art. Dorian meets Lord Henry Wotton, a friend of Basil's, and becomes enthralled by Lord Henry's world view. Espousing a new hedonism, Lord Henry suggests the only things worth pursuing in life are beauty and fulfillment of the senses. Realizing that one day his beauty will fade, Dorian (whimsically) expresses a desire to sell his soul to ensure the portrait Basil has painted would age rather than himself. Dorian's wish is fulfilled, plunging him into debauched acts. The portrait serves as a reminder of the effect each act has upon his soul, with each sin displayed as a disfigurement of his form, or through a sign of aging. The Picture of Dorian Gray is considered a work of classic gothic fiction with a strong Faustian theme. (Summary by Wikipedia) For further information, including links to online text, reader information, RSS feeds, CD cover or other formats (if available), please go to the LibriVox catalog page for this recording. For more free audio books or to become a volunteer reader, visit LibriVox.org . Download M4B 00-14 (201MB) Download M4B 15-20 (56MB)",
+    "external-identifier":"urn:storj:bucket:jvrrslrv7u4ubxymktudgzt3hnpq:picture_dorian_gray_1204_librivox",
+    "format":[
+      "128Kbps MP3",
+      "64Kbps MP3",
+      "Archive BitTorrent",
+      "DjVuTXT",
+      "Djvu XML",
+      "Essentia High GZ",
+      "Essentia Low GZ",
+      "Item Tile",
+      "JPEG",
+      "JPEG Thumb",
+      "LibriVox Apple Audiobook",
+      "Metadata",
+      "OCR Page Index",
+      "OCR Search Text",
+      "Ogg Vorbis",
+      "PNG",
+      "Page Numbers JSON",
+      "Scandata",
+      "Single Page Processed JP2 ZIP",
+      "Spectrogram",
+      "Storj Upload Log",
+      "Storj Upload Trigger",
+      "Text PDF",
+      "chOCR",
+      "hOCR"
+    ],
+    "identifier":"picture_dorian_gray_1204_librivox",
+    "language":"eng",
+    "mediatype":"audio",
+    "publicdate":"2012-04-26T18:19:58Z",
+    "runtime":"9:30:14",
+    "title":"The Picture of Dorian Gray (1891 Version)"
+  }
+]
